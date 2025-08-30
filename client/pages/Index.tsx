@@ -203,69 +203,65 @@ export default function Index() {
             </p>
           </div>
 
-          {/* Services Grid */}
-          <div className="space-y-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {/* Lash Extensions */}
-              <div className="bg-white border border-neutral-950/15 p-6">
-                <div className="space-y-6">
-                  <div className="space-y-4">
-                    <div className="w-12 h-12 text-neutral-950">
-                      <svg viewBox="0 0 48 48" fill="currentColor">
-                        <path d="M17.9677 42.299H9.00017C8.11784 42.299 7.34751 41.9697 6.68917 41.311C6.03051 40.6527 5.70117 39.8824 5.70117 39V30.0325C7.09617 29.8738 8.29084 29.3153 9.28517 28.357C10.2792 27.3983 10.7762 26.2298 10.7762 24.8515C10.7762 23.4728 10.2792 22.3039 9.28517 21.3445C8.29084 20.3852 7.09617 19.8222 5.70117 19.6555V10.7C5.70117 9.82002 6.03051 9.04818 6.68917 8.38452C7.34751 7.72085 8.11784 7.38902 9.00017 7.38902H17.5872C18.0175 6.02402 18.7297 4.88952 19.7237 3.98552C20.7173 3.08152 21.8928 2.62952 23.2502 2.62952C24.6075 2.62952 25.783 3.08152 26.7767 3.98552C27.7707 4.88952 28.4828 6.02402 28.9132 7.38902H37.3002C38.1802 7.38902 38.952 7.72085 39.6157 8.38452C40.2793 9.04818 40.6112 9.82002 40.6112 10.7V19.087C41.9762 19.5173 43.0857 20.2628 43.9397 21.3235C44.7937 22.3838 45.2207 23.5927 45.2207 24.95C45.2207 26.3073 44.7937 27.4578 43.9397 28.4015C43.0857 29.3455 41.9762 30.0327 40.6112 30.463V39C40.6112 39.8824 40.2793 40.6527 39.6157 41.311C38.952 41.9697 38.1802 42.299 37.3002 42.299H28.3447C28.17 40.7387 27.5903 39.4809 26.6057 38.5255C25.621 37.5702 24.4682 37.0925 23.1472 37.0925C21.8265 37.0925 20.6747 37.5702 19.6917 38.5255C18.709 39.4809 18.1343 40.7387 17.9677 42.299Z"/>
-                      </svg>
-                    </div>
-                    <div className="space-y-2">
-                      <h3 className="font-noto-serif text-2xl leading-[140%] text-neutral-950 tracking-[-0.24px]">
-                        Lash Extensions for Stunning Eyes
-                      </h3>
-                      <p className="font-heebo text-base text-neutral-950 leading-[150%]">
-                        Long-lasting, voluminous lashes tailored for you.
-                      </p>
-                    </div>
+          {/* Services Grid - All 3 in a row */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {/* Lash Extensions */}
+            <div className="bg-white border border-neutral-950/15 p-6">
+              <div className="space-y-6">
+                <div className="space-y-4">
+                  <div className="w-12 h-12 text-neutral-950">
+                    <svg viewBox="0 0 48 48" fill="currentColor">
+                      <path d="M17.9677 42.299H9.00017C8.11784 42.299 7.34751 41.9697 6.68917 41.311C6.03051 40.6527 5.70117 39.8824 5.70117 39V30.0325C7.09617 29.8738 8.29084 29.3153 9.28517 28.357C10.2792 27.3983 10.7762 26.2298 10.7762 24.8515C10.7762 23.4728 10.2792 22.3039 9.28517 21.3445C8.29084 20.3852 7.09617 19.8222 5.70117 19.6555V10.7C5.70117 9.82002 6.03051 9.04818 6.68917 8.38452C7.34751 7.72085 8.11784 7.38902 9.00017 7.38902H17.5872C18.0175 6.02402 18.7297 4.88952 19.7237 3.98552C20.7173 3.08152 21.8928 2.62952 23.2502 2.62952C24.6075 2.62952 25.783 3.08152 26.7767 3.98552C27.7707 4.88952 28.4828 6.02402 28.9132 7.38902H37.3002C38.1802 7.38902 38.952 7.72085 39.6157 8.38452C40.2793 9.04818 40.6112 9.82002 40.6112 10.7V19.087C41.9762 19.5173 43.0857 20.2628 43.9397 21.3235C44.7937 22.3838 45.2207 23.5927 45.2207 24.95C45.2207 26.3073 44.7937 27.4578 43.9397 28.4015C43.0857 29.3455 41.9762 30.0327 40.6112 30.463V39C40.6112 39.8824 40.2793 40.6527 39.6157 41.311C38.952 41.9697 38.1802 42.299 37.3002 42.299H28.3447C28.17 40.7387 27.5903 39.4809 26.6057 38.5255C25.621 37.5702 24.4682 37.0925 23.1472 37.0925C21.8265 37.0925 20.6747 37.5702 19.6917 38.5255C18.709 39.4809 18.1343 40.7387 17.9677 42.299Z"/>
+                    </svg>
                   </div>
-                  <button className="flex items-center gap-2 font-heebo text-base text-neutral-950 hover:text-pink-500 transition-colors">
-                    Learn More <ChevronRight className="w-6 h-6" />
-                  </button>
-                </div>
-              </div>
-
-              {/* Brow Shaping */}
-              <div className="bg-white border border-neutral-950/15 p-6">
-                <div className="space-y-6">
-                  <div className="space-y-4">
-                    <div className="w-12 h-12 text-neutral-950">
-                      <svg viewBox="0 0 48 48" fill="currentColor">
-                        <path d="M19.2388 44.1796C18.2908 44.1796 17.484 43.8469 16.8183 43.1816C16.153 42.5159 15.8203 41.7091 15.8203 40.7611V36.6196C15.8203 36.1389 15.9848 35.7329 16.3138 35.4016C16.6431 35.0702 17.049 34.9046 17.5313 34.9046C18.014 34.9046 18.4193 35.0702 18.7473 35.4016C19.075 35.7329 19.2388 36.1389 19.2388 36.6196V40.7611H40.7728V19.2271H36.6313C36.1426 19.2271 35.7346 19.0626 35.4073 18.7336C35.08 18.4046 34.9163 17.9984 34.9163 17.5151C34.9163 17.0317 35.08 16.6286 35.4073 16.3056C35.7346 15.9822 36.1426 15.8206 36.6313 15.8206H40.7728C41.7092 15.8206 42.511 16.1542 43.1783 16.8216C43.8456 17.4889 44.1793 18.2907 44.1793 19.2271V40.7611C44.1793 41.7091 43.8456 42.5159 43.1783 43.1816C42.511 43.8469 41.7092 44.1796 40.7728 44.1796H19.2388Z"/>
-                      </svg>
-                    </div>
-                    <div className="space-y-2">
-                      <h3 className="font-noto-serif text-2xl leading-[140%] text-neutral-950 tracking-[-0.24px]">
-                        Perfectly Shaped Brows Just for You
-                      </h3>
-                      <p className="font-heebo text-base text-neutral-950 leading-[150%]">
-                        Achieve the ideal brow shape with our experts.
-                      </p>
-                    </div>
+                  <div className="space-y-2">
+                    <h3 className="font-noto-serif text-2xl leading-[140%] text-neutral-950 tracking-[-0.24px]">
+                      Lash Extensions for Stunning Eyes
+                    </h3>
+                    <p className="font-heebo text-base text-neutral-950 leading-[150%]">
+                      Long-lasting, voluminous lashes tailored for you.
+                    </p>
                   </div>
-                  <button className="flex items-center gap-2 font-heebo text-base text-neutral-950 hover:text-pink-500 transition-colors">
-                    Learn More <ChevronRight className="w-6 h-6" />
-                  </button>
                 </div>
+                <button className="flex items-center gap-2 font-heebo text-base text-neutral-950 hover:text-pink-500 transition-colors">
+                  Learn More <ChevronRight className="w-6 h-6" />
+                </button>
               </div>
             </div>
 
-            {/* Lifts Service - Full Width */}
-            <div className="bg-white border border-neutral-950/15 flex">
-              <div className="flex-1">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/1fc6e8c0ee0e7b1e64ee1d45660d4634cf405324?width=640" 
-                  alt="Lash lift service" 
-                  className="w-full h-full object-cover"
-                />
+            {/* Brow Shaping */}
+            <div className="bg-white border border-neutral-950/15 p-6">
+              <div className="space-y-6">
+                <div className="space-y-4">
+                  <div className="w-12 h-12 text-neutral-950">
+                    <svg viewBox="0 0 48 48" fill="currentColor">
+                      <path d="M19.2388 44.1796C18.2908 44.1796 17.484 43.8469 16.8183 43.1816C16.153 42.5159 15.8203 41.7091 15.8203 40.7611V36.6196C15.8203 36.1389 15.9848 35.7329 16.3138 35.4016C16.6431 35.0702 17.049 34.9046 17.5313 34.9046C18.014 34.9046 18.4193 35.0702 18.7473 35.4016C19.075 35.7329 19.2388 36.1389 19.2388 36.6196V40.7611H40.7728V19.2271H36.6313C36.1426 19.2271 35.7346 19.0626 35.4073 18.7336C35.08 18.4046 34.9163 17.9984 34.9163 17.5151C34.9163 17.0317 35.08 16.6286 35.4073 16.3056C35.7346 15.9822 36.1426 15.8206 36.6313 15.8206H40.7728C41.7092 15.8206 42.511 16.1542 43.1783 16.8216C43.8456 17.4889 44.1793 18.2907 44.1793 19.2271V40.7611C44.1793 41.7091 43.8456 42.5159 43.1783 43.1816C42.511 43.8469 41.7092 44.1796 40.7728 44.1796H19.2388Z"/>
+                    </svg>
+                  </div>
+                  <div className="space-y-2">
+                    <h3 className="font-noto-serif text-2xl leading-[140%] text-neutral-950 tracking-[-0.24px]">
+                      Perfectly Shaped Brows Just for You
+                    </h3>
+                    <p className="font-heebo text-base text-neutral-950 leading-[150%]">
+                      Achieve the ideal brow shape with our experts.
+                    </p>
+                  </div>
+                </div>
+                <button className="flex items-center gap-2 font-heebo text-base text-neutral-950 hover:text-pink-500 transition-colors">
+                  Learn More <ChevronRight className="w-6 h-6" />
+                </button>
               </div>
-              <div className="flex-1 p-6 flex flex-col justify-center">
-                <div className="space-y-6">
+            </div>
+
+            {/* Lifts Service */}
+            <div className="bg-white border border-neutral-950/15 p-6">
+              <div className="space-y-6">
+                <div className="space-y-4">
+                  <div className="w-12 h-12 text-neutral-950">
+                    <svg viewBox="0 0 48 48" fill="currentColor">
+                      <path d="M19.2388 44.1796C18.2908 44.1796 17.484 43.8469 16.8183 43.1816C16.153 42.5159 15.8203 41.7091 15.8203 40.7611V36.6196C15.8203 36.1389 15.9848 35.7329 16.3138 35.4016C16.6431 35.0702 17.049 34.9046 17.5313 34.9046C18.014 34.9046 18.4193 35.0702 18.7473 35.4016C19.075 35.7329 19.2388 36.1389 19.2388 36.6196V40.7611H40.7728V19.2271H36.6313C36.1426 19.2271 35.7346 19.0626 35.4073 18.7336C35.08 18.4046 34.9163 17.9984 34.9163 17.5151C34.9163 17.0317 35.08 16.6286 35.4073 16.3056C35.7346 15.9822 36.1426 15.8206 36.6313 15.8206H40.7728C41.7092 15.8206 42.511 16.1542 43.1783 16.8216C43.8456 17.4889 44.1793 18.2907 44.1793 19.2271V40.7611C44.1793 41.7091 43.8456 42.5159 43.1783 43.1816C42.511 43.8469 41.7092 44.1796 40.7728 44.1796H19.2388Z"/>
+                    </svg>
+                  </div>
                   <div className="space-y-2">
                     <div className="mb-2">
                       <span className="font-heebo font-semibold text-base text-neutral-950">Lifts</span>
@@ -277,10 +273,10 @@ export default function Index() {
                       Lift and enhance your lashes for a stunning look.
                     </p>
                   </div>
-                  <button className="flex items-center gap-2 font-heebo text-base text-neutral-950 hover:text-pink-500 transition-colors">
-                    Learn More <ChevronRight className="w-6 h-6" />
-                  </button>
                 </div>
+                <button className="flex items-center gap-2 font-heebo text-base text-neutral-950 hover:text-pink-500 transition-colors">
+                  Learn More <ChevronRight className="w-6 h-6" />
+                </button>
               </div>
             </div>
           </div>
