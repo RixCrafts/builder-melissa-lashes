@@ -385,34 +385,34 @@ export default function Index() {
       </section>
 
       {/* Testimonial Section */}
-      <section className="bg-neutral-200 px-16 py-28">
+      <section className="bg-neutral-200 px-4 md:px-8 lg:px-16 py-12 md:py-20 lg:py-28">
         <div className="max-w-7xl mx-auto">
-          <div className="max-w-3xl mx-auto text-center space-y-8">
+          <div className="max-w-3xl mx-auto text-center space-y-6 md:space-y-8">
             {/* Stars */}
             <div className="flex justify-center gap-1">
               {[...Array(5)].map((_, i) => (
-                <Star key={i} className="w-6 h-6 fill-neutral-950 text-neutral-950" />
+                <Star key={i} className="w-5 h-5 md:w-6 md:h-6 fill-neutral-950 text-neutral-950" />
               ))}
             </div>
-            
-            <blockquote className="font-noto-serif text-2xl leading-[140%] text-neutral-950 tracking-[-0.24px]">
+
+            <blockquote className="font-noto-serif text-lg md:text-xl lg:text-2xl leading-[140%] text-neutral-950 tracking-[-0.24px] px-4">
               "The service was exceptional! My lashes have never looked better, and I feel so confident!"
             </blockquote>
-            
-            <div className="flex items-center justify-center gap-5">
-              <div className="w-14 h-14 rounded-full bg-gray-300 overflow-hidden">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/placeholder-avatar" 
-                  alt="Emily Johnson" 
+
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-5">
+              <div className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-gray-300 overflow-hidden">
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/placeholder-avatar"
+                  alt="Emily Johnson"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="text-left">
-                <div className="font-heebo font-semibold text-base text-neutral-950">Emily Johnson</div>
-                <div className="font-heebo text-base text-neutral-950">Beauty Blogger</div>
+              <div className="text-center sm:text-left">
+                <div className="font-heebo font-semibold text-sm md:text-base text-neutral-950">Emily Johnson</div>
+                <div className="font-heebo text-sm md:text-base text-neutral-950">Beauty Blogger</div>
               </div>
-              <div className="w-px h-15 bg-neutral-950/15"></div>
-              <div className="w-30 h-12 bg-gray-300"></div>
+              <div className="hidden sm:block w-px h-12 md:h-15 bg-neutral-950/15"></div>
+              <div className="w-24 md:w-30 h-8 md:h-12 bg-gray-300 rounded"></div>
             </div>
           </div>
         </div>
