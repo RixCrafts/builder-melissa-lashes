@@ -348,18 +348,18 @@ export default function Index() {
 
       {/* Gallery Section */}
       <section className="gradient-gallery">
-        <div className="px-16 py-28">
-          <div className="max-w-3xl mx-auto text-center mb-20">
-            <h2 className="font-noto-serif text-5xl leading-[120%] text-neutral-950 tracking-[-0.48px] mb-6">
+        <div className="px-4 md:px-8 lg:px-16 py-12 md:py-20 lg:py-28">
+          <div className="max-w-3xl mx-auto text-center mb-12 md:mb-16 lg:mb-20">
+            <h2 className="font-noto-serif text-2xl md:text-3xl lg:text-4xl xl:text-5xl leading-[120%] text-neutral-950 tracking-[-0.48px] mb-6">
               Transformation Gallery
             </h2>
-            <p className="font-heebo text-lg text-neutral-950 leading-[150%]">
+            <p className="font-heebo text-base md:text-lg text-neutral-950 leading-[150%]">
               See stunning results from our happy clients!
             </p>
           </div>
         </div>
-        
-        <div className="relative h-[900px] overflow-hidden">
+
+        <div className="relative h-64 md:h-96 lg:h-[900px] overflow-hidden">
           <div className="flex w-full h-full">
             <img 
               src="https://api.builder.io/api/v1/image/assets/TEMP/9063f1f753ab9976d9dd00db5df66028d916908c?width=2880" 
@@ -519,7 +519,7 @@ export default function Index() {
                   <div className="w-6 h-6 text-neutral-950">📷</div>
                   <div className="w-6 h-6 text-neutral-950">🐦</div>
                   <div className="w-6 h-6 text-neutral-950">💼</div>
-                  <div className="w-6 h-6 text-neutral-950">���</div>
+                  <div className="w-6 h-6 text-neutral-950">📺</div>
                 </div>
               </div>
 
