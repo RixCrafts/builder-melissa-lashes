@@ -167,7 +167,7 @@ export default function Index() {
                   Transform your look with our luxurious lash and brow services. Experience the artistry of beauty tailored just for you.
                 </p>
               </div>
-              <div className="flex items-center gap-4">
+              <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
                 <button className="gradient-primary text-white px-6 py-2.5 font-heebo text-base border border-pink-500 hover:opacity-90 transition-opacity">
                   Book Now
                 </button>
@@ -176,11 +176,11 @@ export default function Index() {
                 </button>
               </div>
             </div>
-            <div className="flex-1">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/4e2ff97a8a1d4b894ed2e07a083d040f5bc098cc?width=1200" 
-                alt="Beautiful woman with stunning lashes" 
-                className="w-full h-[600px] object-cover"
+            <div className="flex-1 w-full lg:w-auto">
+              <img
+                src="https://api.builder.io/api/v1/image/assets/TEMP/4e2ff97a8a1d4b894ed2e07a083d040f5bc098cc?width=1200"
+                alt="Beautiful woman with stunning lashes"
+                className="w-full h-64 md:h-80 lg:h-[600px] object-cover rounded-lg lg:rounded-none"
               />
             </div>
           </div>
