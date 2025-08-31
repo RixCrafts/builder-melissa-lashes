@@ -318,3 +318,80 @@ Before starting each development session:
 ---
 
 ## Enter your learning experience notes after this point
+
+## 2024-08-31 - Full Project and Dependency Cleanup
+
+**Concepts Learned:**
+
+- Dependency Auditing: Identify and safely remove unused packages
+- Bundle Optimization: Impact of removing large libraries on build size
+- Git Safety Practices: Using backup branches for risky operations
+- Build Verification: Multiple testing layers (TypeScript, build, tests)
+
+**Prompt Implemented:**
+
+`This project has a git repo and is linked with github, my plan is to develop locally, push to github and when the first version of the site is good for initial publishing, then link the github project to Netlify and host the project on a custom domain on Netlify. Since the initial and existing code was created by Builder.io from a Figma design, I do not know if there are dependencies, libraries or anything that can be considered extra and not needed, can we check this?`
+
+**Optimized Prompt:**
+
+``` markdown
+
+PROJECT CONTEXT:
+- React project generated from Builder.io (Figma design import)
+- Git repo linked to GitHub for version control
+- Target: Deploy v1 to Netlify with custom domain when ready
+- Developer goal: Learn while building, with progress tracking
+
+IMMEDIATE TASKS:
+1. DEPENDENCY AUDIT: Analyze package.json and codebase to identify:
+   - Unused dependencies and libraries
+   - Builder.io-specific packages that might be removable
+   - Opportunities to optimize bundle size
+   - Security vulnerabilities or outdated packages
+
+2. CODE REVIEW & CLEANUP:
+   - Review Builder.io generated components for optimization opportunities
+   - Identify redundant CSS or unused imports
+   - Check for production-ready best practices
+   - Ensure mobile/desktop responsiveness is properly implemented
+
+3. LEARNING DOCUMENTATION:
+   - Create comprehensive learning section and saved in a file called DEV-LEARNING-NOTES.md
+   - Track concepts learned during dependency cleanup and optimization
+   - Document deployment preparation steps
+   - Explain each optimization decision for educational value
+
+4. DEPLOYMENT PREPARATION:
+   - Configure build settings for optimal Netlify deployment
+   - Set up environment variables structure
+   - Prepare production build optimization
+
+LEARNING FOCUS AREAS:
+- React optimization techniques
+- Dependency management
+- Build process understanding
+- Deployment best practices
+- Performance optimization
+
+Please explain each step, decision, and recommendation in detail to help improve my coding skills. Update the learning progress after each major task completed."
+
+```
+
+**Phases:**
+
+- Phase 1: Safe Immediate Removals (High Confidence)
+- Phase 2: Radix UI component cleanup
+- Phase 3: Builder.io migration
+- Bundle size analysis and performance testing
+
+**Challenges Faced:**
+
+- Identifying truly unused vs potentially needed packages
+- Understanding sub-dependency relationships
+- Ensuring no hidden imports or references
+
+**Key Insights:**
+
+- Template projects often include massive amounts of unused code
+- Safe incremental changes with testing prevent breaking deployments
+- Bundle size has direct impact on user experience and business success
