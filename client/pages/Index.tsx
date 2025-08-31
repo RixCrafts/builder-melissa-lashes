@@ -9,8 +9,8 @@ export default function Index() {
     <div className="min-h-screen bg-neutral-200">
       {/* Navigation */}
       <nav className="bg-neutral-200 relative">
-        <div className="px-16 py-0">
-          <div className="flex items-center justify-between h-18">
+        <div className="px-4 md:px-8 lg:px-16 py-0">
+          <div className="flex items-center justify-between h-16 md:h-18">
             {/* Logo */}
             <div className="flex items-center gap-6">
               <div className="flex items-center justify-center w-21 h-9 px-2">
@@ -31,7 +31,7 @@ export default function Index() {
               </div>
 
               {/* Navigation Links */}
-              <div className="flex items-center gap-8">
+              <div className="hidden md:flex items-center gap-4 lg:gap-8">
                 <a href="#" className="text-neutral-950 font-heebo text-base hover:text-pink-500 transition-colors">Home</a>
                 <a href="#" className="text-neutral-950 font-heebo text-base hover:text-pink-500 transition-colors">Services</a>
                 <a href="#" className="text-neutral-950 font-heebo text-base hover:text-pink-500 transition-colors">Portfolio</a>
@@ -46,7 +46,7 @@ export default function Index() {
 
             {/* Contact Button */}
             <div className="flex items-center gap-4">
-              <button className="gradient-primary text-white px-5 py-2 font-heebo text-base border border-pink-500 hover:opacity-90 transition-opacity">
+              <button className="gradient-primary text-white px-3 py-1.5 md:px-5 md:py-2 font-heebo text-sm md:text-base border border-pink-500 hover:opacity-90 transition-opacity">
                 Contact
               </button>
             </div>
@@ -56,8 +56,8 @@ export default function Index() {
         {/* Mega Menu */}
         {isMenuOpen && (
           <div className="bg-pink-light">
-            <div className="px-16 py-8">
-              <div className="flex gap-8">
+            <div className="px-4 md:px-8 lg:px-16 py-4 md:py-8">
+              <div className="flex flex-col md:flex-row gap-4 md:gap-8">
                 {/* Quick Links */}
                 <div className="flex-1">
                   <h3 className="font-heebo font-semibold text-sm text-neutral-950 mb-4">Quick Links</h3>
@@ -134,7 +134,7 @@ export default function Index() {
             </div>
 
             {/* Bottom CTA Section */}
-            <div className="bg-white border-t border-neutral-950/15 px-16 py-4">
+            <div className="bg-white border-t border-neutral-950/15 px-4 md:px-8 lg:px-16 py-4">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <span className="font-heebo text-base text-neutral-950">Ready to enhance your beauty?</span>
