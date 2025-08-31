@@ -160,10 +160,10 @@ export default function Index() {
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-20">
             <div className="flex-1 space-y-8">
               <div className="space-y-6">
-                <h1 className="font-noto-serif text-[56px] leading-[120%] text-neutral-950 tracking-[-0.56px]">
+                <h1 className="font-noto-serif text-3xl md:text-4xl lg:text-5xl xl:text-[56px] leading-[120%] text-neutral-950 tracking-[-0.56px] text-center lg:text-left">
                   Elevate Your Beauty with Stunning Lashes & Brows
                 </h1>
-                <p className="font-heebo text-lg text-neutral-950 leading-[150%]">
+                <p className="font-heebo text-base md:text-lg text-neutral-950 leading-[150%] text-center lg:text-left">
                   Transform your look with our luxurious lash and brow services. Experience the artistry of beauty tailored just for you.
                 </p>
               </div>
