@@ -5,8 +5,11 @@
 ### React Libraries
 
 - Radix : React Component Library
-- Framer Motion : Animation Library
+- React-Three-Fiber : 3D Library
 
 ### Independent Libraries
 
 - Zod : Validation Library
+- Three.js: 3D Library
+- Framer Motion : Animation Library
+- date-fns: Date Manipulation Library
