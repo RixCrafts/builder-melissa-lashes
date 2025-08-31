@@ -13,3 +13,10 @@
 - Three.js: 3D Library
 - Framer Motion : Animation Library
 - date-fns: Date Manipulation Library
+
+## Pending
+
+`Perfect, can you please create a README.md file for this project and and 
+  Overview of the project, the tech stack and all the pending tasks for me 
+  to perform?`
+  

@@ -395,3 +395,7 @@ Please explain each step, decision, and recommendation in detail to help improve
 - Template projects often include massive amounts of unused code
 - Safe incremental changes with testing prevent breaking deployments
 - Bundle size has direct impact on user experience and business success
+- External services create hidden dependencies and costs
+- Local asset management provides complete control and independence
+- Proper asset organization scales better than flat file structures
+- Migration planning prevents functionality loss during transitions
