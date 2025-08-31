@@ -155,9 +155,9 @@ export default function Index() {
       </nav>
 
       {/* Hero Section */}
-      <section className="gradient-header px-16 py-28">
+      <section className="gradient-header px-4 md:px-8 lg:px-16 py-12 md:py-20 lg:py-28">
         <div className="max-w-7xl mx-auto">
-          <div className="flex items-center gap-20">
+          <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-20">
             <div className="flex-1 space-y-8">
               <div className="space-y-6">
                 <h1 className="font-noto-serif text-[56px] leading-[120%] text-neutral-950 tracking-[-0.56px]">
