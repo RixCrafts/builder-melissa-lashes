@@ -284,17 +284,17 @@ export default function Index() {
       </section>
 
       {/* Experience Section */}
-      <section className="gradient-promo px-16 py-28">
+      <section className="gradient-promo px-4 md:px-8 lg:px-16 py-12 md:py-20 lg:py-28">
         <div className="max-w-7xl mx-auto">
-          <div className="flex items-center gap-20">
-            <div className="flex-1">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/6dec3fc3353e7d0a389dfd55a906f2ba1d243eb7?width=1200" 
-                alt="Beauty experience" 
-                className="w-full h-[640px] object-cover"
+          <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-20">
+            <div className="flex-1 w-full lg:w-auto order-2 lg:order-1">
+              <img
+                src="https://api.builder.io/api/v1/image/assets/TEMP/6dec3fc3353e7d0a389dfd55a906f2ba1d243eb7?width=1200"
+                alt="Beauty experience"
+                className="w-full h-64 md:h-80 lg:h-[640px] object-cover rounded-lg lg:rounded-none"
               />
             </div>
-            <div className="flex-1 space-y-8">
+            <div className="flex-1 space-y-6 md:space-y-8 order-1 lg:order-2">
               <div className="space-y-8">
                 <div className="space-y-4">
                   <div className="mb-4">
