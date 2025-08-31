@@ -188,23 +188,23 @@ export default function Index() {
       </section>
 
       {/* Services Section */}
-      <section className="bg-neutral-200 px-16 py-28">
+      <section className="bg-neutral-200 px-4 md:px-8 lg:px-16 py-12 md:py-20 lg:py-28">
         <div className="max-w-7xl mx-auto">
           {/* Section Header */}
-          <div className="max-w-3xl mx-auto text-center mb-20">
+          <div className="max-w-3xl mx-auto text-center mb-12 md:mb-16 lg:mb-20">
             <div className="mb-4">
               <span className="font-heebo font-semibold text-base text-neutral-950">Beauty</span>
             </div>
-            <h2 className="font-noto-serif text-5xl leading-[120%] text-neutral-950 tracking-[-0.48px] mb-6">
+            <h2 className="font-noto-serif text-2xl md:text-3xl lg:text-4xl xl:text-5xl leading-[120%] text-neutral-950 tracking-[-0.48px] mb-6">
               Our Signature Services
             </h2>
-            <p className="font-heebo text-lg text-neutral-950 leading-[150%]">
+            <p className="font-heebo text-base md:text-lg text-neutral-950 leading-[150%]">
               Enhance your natural beauty with our expert services.
             </p>
           </div>
 
           {/* Services Grid - All 3 in a row */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             {/* Lash Extensions */}
             <div className="bg-white border border-neutral-950/15 p-6">
               <div className="space-y-6">
