@@ -300,10 +300,10 @@ export default function Index() {
                   <div className="mb-4">
                     <span className="font-heebo font-semibold text-base text-neutral-950">Elegance</span>
                   </div>
-                  <h2 className="font-noto-serif text-5xl leading-[120%] text-neutral-950 tracking-[-0.48px]">
+                  <h2 className="font-noto-serif text-2xl md:text-3xl lg:text-4xl xl:text-5xl leading-[120%] text-neutral-950 tracking-[-0.48px] text-center lg:text-left">
                     Experience Beauty Like Never Before
                   </h2>
-                  <p className="font-heebo text-lg text-neutral-950 leading-[150%]">
+                  <p className="font-heebo text-base md:text-lg text-neutral-950 leading-[150%] text-center lg:text-left">
                     At our salon, we combine expertise with a passion for beauty. Our dedicated team ensures every visit leaves you feeling confident and radiant.
                   </p>
                 </div>
@@ -519,7 +519,7 @@ export default function Index() {
                   <div className="w-6 h-6 text-neutral-950">📷</div>
                   <div className="w-6 h-6 text-neutral-950">🐦</div>
                   <div className="w-6 h-6 text-neutral-950">💼</div>
-                  <div className="w-6 h-6 text-neutral-950">📺</div>
+                  <div className="w-6 h-6 text-neutral-950">���</div>
                 </div>
               </div>
 
