@@ -265,28 +265,36 @@ export default function Index() {
 
             {/* Lifts Service */}
             <div className="bg-white border border-neutral-950/15 p-6">
-              <div className="space-y-6">
-                <div className="space-y-4">
-                  <div className="w-12 h-12 text-neutral-950">
-                    <svg viewBox="0 0 48 48" fill="currentColor">
-                      <path d="M19.2388 44.1796C18.2908 44.1796 17.484 43.8469 16.8183 43.1816C16.153 42.5159 15.8203 41.7091 15.8203 40.7611V36.6196C15.8203 36.1389 15.9848 35.7329 16.3138 35.4016C16.6431 35.0702 17.049 34.9046 17.5313 34.9046C18.014 34.9046 18.4193 35.0702 18.7473 35.4016C19.075 35.7329 19.2388 36.1389 19.2388 36.6196V40.7611H40.7728V19.2271H36.6313C36.1426 19.2271 35.7346 19.0626 35.4073 18.7336C35.08 18.4046 34.9163 17.9984 34.9163 17.5151C34.9163 17.0317 35.08 16.6286 35.4073 16.3056C35.7346 15.9822 36.1426 15.8206 36.6313 15.8206H40.7728C41.7092 15.8206 42.511 16.1542 43.1783 16.8216C43.8456 17.4889 44.1793 18.2907 44.1793 19.2271V40.7611C44.1793 41.7091 43.8456 42.5159 43.1783 43.1816C42.511 43.8469 41.7092 44.1796 40.7728 44.1796H19.2388Z"/>
-                    </svg>
-                  </div>
-                  <div className="space-y-2">
-                    <div className="mb-2">
-                      <span className="font-heebo font-semibold text-base text-neutral-950">Lifts</span>
+              <div className="flex flex-row gap-3">
+                <img
+                  loading="lazy"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets%2F52220e3dedeb40088fb6ba6cc9160867%2Fe97ae88cdcc24a2c9716dcb1f15fae9a?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2F52220e3dedeb40088fb6ba6cc9160867%2Fe97ae88cdcc24a2c9716dcb1f15fae9a?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2F52220e3dedeb40088fb6ba6cc9160867%2Fe97ae88cdcc24a2c9716dcb1f15fae9a?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2F52220e3dedeb40088fb6ba6cc9160867%2Fe97ae88cdcc24a2c9716dcb1f15fae9a?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2F52220e3dedeb40088fb6ba6cc9160867%2Fe97ae88cdcc24a2c9716dcb1f15fae9a?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2F52220e3dedeb40088fb6ba6cc9160867%2Fe97ae88cdcc24a2c9716dcb1f15fae9a?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2F52220e3dedeb40088fb6ba6cc9160867%2Fe97ae88cdcc24a2c9716dcb1f15fae9a?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2F52220e3dedeb40088fb6ba6cc9160867%2Fe97ae88cdcc24a2c9716dcb1f15fae9a"
+                  alt="Lash lift service"
+                  className="aspect-[0.67] object-cover object-center w-full mt-5 min-h-5 min-w-5 overflow-hidden"
+                />
+                <div className="space-y-6">
+                  <div className="space-y-4">
+                    <div className="w-12 h-12 text-neutral-950">
+                      <svg viewBox="0 0 48 48" fill="currentColor">
+                        <path d="M19.2388 44.1796C18.2908 44.1796 17.484 43.8469 16.8183 43.1816C16.153 42.5159 15.8203 41.7091 15.8203 40.7611V36.6196C15.8203 36.1389 15.9848 35.7329 16.3138 35.4016C16.6431 35.0702 17.049 34.9046 17.5313 34.9046C18.014 34.9046 18.4193 35.0702 18.7473 35.4016C19.075 35.7329 19.2388 36.1389 19.2388 36.6196V40.7611H40.7728V19.2271H36.6313C36.1426 19.2271 35.7346 19.0626 35.4073 18.7336C35.08 18.4046 34.9163 17.9984 34.9163 17.5151C34.9163 17.0317 35.08 16.6286 35.4073 16.3056C35.7346 15.9822 36.1426 15.8206 36.6313 15.8206H40.7728C41.7092 15.8206 42.511 16.1542 43.1783 16.8216C43.8456 17.4889 44.1793 18.2907 44.1793 19.2271V40.7611C44.1793 41.7091 43.8456 42.5159 43.1783 43.1816C42.511 43.8469 41.7092 44.1796 40.7728 44.1796H19.2388Z"/>
+                      </svg>
                     </div>
-                    <h3 className="font-noto-serif text-2xl leading-[140%] text-neutral-950 tracking-[-0.24px]">
-                      Lifts for Effortless Elegance
-                    </h3>
-                    <p className="font-heebo text-base text-neutral-950 leading-[150%]">
-                      Lift and enhance your lashes for a stunning look.
-                    </p>
+                    <div className="space-y-2 mt-4">
+                      <div className="mb-2">
+                        <span className="font-heebo font-semibold text-base text-neutral-950">Lifts</span>
+                      </div>
+                      <h3 className="font-noto-serif text-2xl leading-[140%] text-neutral-950 tracking-[-0.24px] mt-2">
+                        Lifts for Effortless Elegance
+                      </h3>
+                      <p className="font-heebo text-base text-neutral-950 leading-[150%] mt-2">
+                        Lift and enhance your lashes for a stunning look.
+                      </p>
+                    </div>
                   </div>
+                  <button className="flex items-center gap-2 font-heebo text-base text-neutral-950 hover:text-pink-500 transition-colors mt-6">
+                    Learn More <ChevronRight className="w-6 h-6" />
+                  </button>
                 </div>
-                <button className="flex items-center gap-2 font-heebo text-base text-neutral-950 hover:text-pink-500 transition-colors">
-                  Learn More <ChevronRight className="w-6 h-6" />
-                </button>
               </div>
             </div>
           </div>
