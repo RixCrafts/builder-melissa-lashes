@@ -429,14 +429,14 @@ export default function Index() {
                 </svg>
               </div>
               <div className="space-y-6">
-                <h2 className="font-noto-serif text-5xl leading-[120%] text-neutral-950 tracking-[-0.48px]">
+                <h2 className="font-noto-serif text-2xl md:text-3xl lg:text-4xl xl:text-5xl leading-[120%] text-neutral-950 tracking-[-0.48px]">
                   Discover Our Passion for Beauty and Excellence
                 </h2>
-                <p className="font-heebo text-lg text-neutral-950 leading-[150%]">
+                <p className="font-heebo text-base md:text-lg text-neutral-950 leading-[150%]">
                   At our salon, we believe in enhancing natural beauty through expert techniques and personalized care. Our dedicated team is committed to providing a luxurious experience that leaves you feeling confident and radiant.
                 </p>
               </div>
-              <div className="flex items-center gap-6">
+              <div className="flex flex-col sm:flex-row items-center gap-4 md:gap-6 justify-center lg:justify-start">
                 <button className="bg-transparent text-neutral-950 px-6 py-2.5 font-heebo text-base border border-neutral-950/15 hover:bg-white/50 transition-colors">
                   Learn More
                 </button>
@@ -445,11 +445,11 @@ export default function Index() {
                 </button>
               </div>
             </div>
-            <div className="flex-1">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/21cfcdec06b31caa71408d157bb3955858599f18?width=1200" 
-                alt="Our salon team" 
-                className="w-full h-[640px] object-cover"
+            <div className="flex-1 w-full lg:w-auto">
+              <img
+                src="https://api.builder.io/api/v1/image/assets/TEMP/21cfcdec06b31caa71408d157bb3955858599f18?width=1200"
+                alt="Our salon team"
+                className="w-full h-64 md:h-80 lg:h-[640px] object-cover rounded-lg lg:rounded-none"
               />
             </div>
           </div>
