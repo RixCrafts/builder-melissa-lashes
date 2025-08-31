@@ -457,19 +457,19 @@ export default function Index() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-neutral-200 px-16 py-28">
+      <section className="bg-neutral-200 px-4 md:px-8 lg:px-16 py-12 md:py-20 lg:py-28">
         <div className="max-w-7xl mx-auto">
-          <div className="flex items-start gap-20">
+          <div className="flex flex-col lg:flex-row items-start gap-8 lg:gap-20 text-center lg:text-left">
             <div className="flex-1">
-              <h2 className="font-noto-serif text-5xl leading-[120%] text-neutral-950 tracking-[-0.48px]">
+              <h2 className="font-noto-serif text-2xl md:text-3xl lg:text-4xl xl:text-5xl leading-[120%] text-neutral-950 tracking-[-0.48px]">
                 Your Beauty Transformation Awaits
               </h2>
             </div>
-            <div className="flex-1 space-y-8">
-              <p className="font-heebo text-lg text-neutral-950 leading-[150%]">
+            <div className="flex-1 space-y-6 md:space-y-8">
+              <p className="font-heebo text-base md:text-lg text-neutral-950 leading-[150%]">
                 Indulge in our luxurious lash and brow services designed to enhance your natural beauty. Book your appointment today and experience the difference.
               </p>
-              <div className="flex items-center gap-4">
+              <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
                 <button className="gradient-primary text-white px-6 py-2.5 font-heebo text-base border border-pink-500 hover:opacity-90 transition-opacity">
                   Book Now
                 </button>
