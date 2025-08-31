@@ -44,8 +44,18 @@ export default function Index() {
               </div>
             </div>
 
-            {/* Contact Button */}
+            {/* Mobile menu button and Contact Button */}
             <div className="flex items-center gap-4">
+              {/* Mobile Menu Button */}
+              <button
+                className="md:hidden flex flex-col gap-1 p-2"
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+              >
+                <div className="w-5 h-0.5 bg-neutral-950"></div>
+                <div className="w-5 h-0.5 bg-neutral-950"></div>
+                <div className="w-5 h-0.5 bg-neutral-950"></div>
+              </button>
+
               <button className="gradient-primary text-white px-3 py-1.5 md:px-5 md:py-2 font-heebo text-sm md:text-base border border-pink-500 hover:opacity-90 transition-opacity">
                 Contact
               </button>
@@ -65,7 +75,7 @@ export default function Index() {
                     {[
                       { icon: "🔍", title: "Pricing", desc: "Explore our competitive pricing options." },
                       { icon: "💬", title: "Testimonials", desc: "See what our clients are saying about us." },
-                      { icon: "����", title: "Contact Us", desc: "Get in touch with our team today." },
+                      { icon: "📞", title: "Contact Us", desc: "Get in touch with our team today." },
                       { icon: "📅", title: "Booking", desc: "Schedule your appointment online easily." }
                     ].map((item, i) => (
                       <div key={i} className="flex items-start gap-3 p-2 cursor-pointer hover:bg-white/50 rounded">
@@ -86,7 +96,7 @@ export default function Index() {
                     {[
                       { icon: "❓", title: "FAQ", desc: "Find answers to common questions here." },
                       { icon: "🖼️", title: "Gallery", desc: "View stunning transformations and results." },
-                      { icon: "���️", title: "Policies", desc: "Understand our salon policies and procedures." }
+                      { icon: "🛡️", title: "Policies", desc: "Understand our salon policies and procedures." }
                     ].map((item, i) => (
                       <div key={i} className="flex items-start gap-3 p-2 cursor-pointer hover:bg-white/50 rounded">
                         <div className="w-6 h-6 mt-1 text-lg">{item.icon}</div>
