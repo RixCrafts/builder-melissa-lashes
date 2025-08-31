@@ -65,7 +65,7 @@ export default function Index() {
                     {[
                       { icon: "🔍", title: "Pricing", desc: "Explore our competitive pricing options." },
                       { icon: "💬", title: "Testimonials", desc: "See what our clients are saying about us." },
-                      { icon: "📞", title: "Contact Us", desc: "Get in touch with our team today." },
+                      { icon: "����", title: "Contact Us", desc: "Get in touch with our team today." },
                       { icon: "📅", title: "Booking", desc: "Schedule your appointment online easily." }
                     ].map((item, i) => (
                       <div key={i} className="flex items-start gap-3 p-2 cursor-pointer hover:bg-white/50 rounded">
@@ -86,7 +86,7 @@ export default function Index() {
                     {[
                       { icon: "❓", title: "FAQ", desc: "Find answers to common questions here." },
                       { icon: "🖼️", title: "Gallery", desc: "View stunning transformations and results." },
-                      { icon: "🛡️", title: "Policies", desc: "Understand our salon policies and procedures." }
+                      { icon: "���️", title: "Policies", desc: "Understand our salon policies and procedures." }
                     ].map((item, i) => (
                       <div key={i} className="flex items-start gap-3 p-2 cursor-pointer hover:bg-white/50 rounded">
                         <div className="w-6 h-6 mt-1 text-lg">{item.icon}</div>
@@ -483,10 +483,10 @@ export default function Index() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-pink-light px-16 py-20">
+      <footer className="bg-pink-light px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20">
         <div className="max-w-7xl mx-auto">
-          <div className="space-y-20">
-            <div className="flex gap-16">
+          <div className="space-y-12 md:space-y-16 lg:space-y-20">
+            <div className="flex flex-col md:flex-row gap-8 md:gap-12 lg:gap-16">
               {/* Company Info */}
               <div className="flex-1 space-y-8">
                 <div className="flex items-center justify-center w-21 h-9 px-2">
