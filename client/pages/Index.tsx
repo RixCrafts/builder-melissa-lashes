@@ -314,7 +314,7 @@ export default function Index() {
             </div>
             <div className="flex-1 w-full lg:w-auto">
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/4e2ff97a8a1d4b894ed2e07a083d040f5bc098cc?width=1200"
+                src="/images/hero/main-hero.jpg"
                 alt="Beautiful woman with stunning lashes"
                 className="w-full h-64 md:h-80 lg:h-[600px] object-cover rounded-lg lg:rounded-none"
               />
@@ -396,7 +396,8 @@ export default function Index() {
               <div className="flex flex-row gap-3">
                 <img
                   loading="lazy"
-                  srcSet="https://cdn.builder.io/api/v1/image/assets%2F52220e3dedeb40088fb6ba6cc9160867%2Fe97ae88cdcc24a2c9716dcb1f15fae9a?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2F52220e3dedeb40088fb6ba6cc9160867%2Fe97ae88cdcc24a2c9716dcb1f15fae9a?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2F52220e3dedeb40088fb6ba6cc9160867%2Fe97ae88cdcc24a2c9716dcb1f15fae9a?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2F52220e3dedeb40088fb6ba6cc9160867%2Fe97ae88cdcc24a2c9716dcb1f15fae9a?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2F52220e3dedeb40088fb6ba6cc9160867%2Fe97ae88cdcc24a2c9716dcb1f15fae9a?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2F52220e3dedeb40088fb6ba6cc9160867%2Fe97ae88cdcc24a2c9716dcb1f15fae9a?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2F52220e3dedeb40088fb6ba6cc9160867%2Fe97ae88cdcc24a2c9716dcb1f15fae9a?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2F52220e3dedeb40088fb6ba6cc9160867%2Fe97ae88cdcc24a2c9716dcb1f15fae9a"
+                  src="/images/services/lash-lift.jpg"
+                  srcSet="/images/services/lash-lift-400.jpg 400w, /images/services/lash-lift-800.jpg 800w, /images/services/lash-lift-1200.jpg 1200w"
                   alt="Lash lift service"
                   className="aspect-[0.67] object-cover object-center w-full mt-5 min-h-5 min-w-5 overflow-hidden"
                 />
@@ -437,7 +438,7 @@ export default function Index() {
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-20">
             <div className="flex-1 w-full lg:w-auto order-2 lg:order-1">
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/6dec3fc3353e7d0a389dfd55a906f2ba1d243eb7?width=1200"
+                src="/images/services/feature-1.jpg"
                 alt="Beauty experience"
                 className="w-full h-64 md:h-80 lg:h-[640px] object-cover rounded-lg lg:rounded-none"
               />
@@ -528,7 +529,7 @@ export default function Index() {
         <div className="relative h-64 md:h-96 lg:h-[900px] overflow-hidden">
           <div className="flex w-full h-full">
             <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/9063f1f753ab9976d9dd00db5df66028d916908c?width=2880"
+              src="/images/backgrounds/main-bg.jpg"
               alt="Before and after transformation"
               className="w-full h-full object-cover"
             />
@@ -572,7 +573,7 @@ export default function Index() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-5">
               <div className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-gray-300 overflow-hidden">
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/placeholder-avatar"
+                  src="/images/avatars/placeholder.jpg"
                   alt="Emily Johnson"
                   className="w-full h-full object-cover"
                 />
@@ -624,7 +625,7 @@ export default function Index() {
             </div>
             <div className="flex-1 w-full lg:w-auto">
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/21cfcdec06b31caa71408d157bb3955858599f18?width=1200"
+                src="/images/services/feature-2.jpg"
                 alt="Our salon team"
                 className="w-full h-64 md:h-80 lg:h-[640px] object-cover rounded-lg lg:rounded-none"
               />
